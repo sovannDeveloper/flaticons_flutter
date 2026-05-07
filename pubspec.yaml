@@ -1,5 +1,5 @@
-name: flaticon
-description: "This resource is from flaticon."
+name: f_icons
+description: "This resource is from f_icons."
 version: 1.0.1+1
 
 environment:
@@ -63,7 +63,3 @@ flutter:
       fonts:
         - asset: assets/fonts/thin-straight.woff
         - asset: assets/fonts/thin-straight.woff2
-  module:
-    androidX: true
-    androidPackage: com.tnoud.flaticon
-    iosBundleIdentifier: com.tnoud.flaticon

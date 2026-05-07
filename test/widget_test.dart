@@ -1,28 +1,15 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
-import 'package:flaticon/main.dart';
+import 'package:f_icons/main.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('Shows f_icons usage examples', (WidgetTester tester) async {
     await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the floating action button and trigger a frame.
-    await tester.tap(find.byTooltip('Increment'));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    expect(find.text('f_icons example'), findsOneWidget);
+    expect(find.text('Use CSS prefix classes'), findsOneWidget);
+    expect(find.text('Br.access_control'), findsOneWidget);
+    expect(find.text('Rs.arrow_right'), findsOneWidget);
+    expect(find.text('Br.i_360_degrees'), findsOneWidget);
+    expect(find.text('FlatIcon.r_play'), findsOneWidget);
   });
 }

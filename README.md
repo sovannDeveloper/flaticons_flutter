@@ -1,6 +1,6 @@
-# Flaticon Flutter
+# f_icons
 
-Flutter `IconData` constants generated from the Flaticon CSS font files in `assets/css`.
+Flutter `IconData` constants generated from CSS font files in `assets/css`.
 
 This package currently exposes 49,709 icons across 11 CSS font styles.
 
@@ -9,7 +9,7 @@ Preview icons: https://flaticons.vercel.app/
 ## Import
 
 ```dart
-import 'package:flaticon/flaticon.dart';
+import 'package:f_icons/f_icons.dart';
 ```
 
 ## Usage
@@ -39,14 +39,14 @@ Compatibility aliases are also available through `FlatIcon`, for example `FlatIc
 
 | CSS file | CSS prefix | Dart file | Dart class | Icons |
 | --- | --- | --- | --- | ---: |
-| `assets/css/bold-rounded.css` | `fi-br-` | `lib/icons/br.dart` | `Br` | 5,050 |
-| `assets/css/bold-straight.css` | `fi-bs-` | `lib/icons/bs.dart` | `Bs` | 5,063 |
-| `assets/css/regular-chubby.css` | `fi-rc-` | `lib/icons/rc.dart` | `Rc` | 3,093 |
-| `assets/css/regular-rounded.css` | `fi-rr-` | `lib/icons/rr.dart` | `Rr` | 5,047 |
-| `assets/css/regular-straight.css` | `fi-rs-` | `lib/icons/rs.dart` | `Rs` | 5,063 |
-| `assets/css/solid-chubby.css` | `fi-sc-` | `lib/icons/sc.dart` | `Sc` | 3,087 |
-| `assets/css/solid-rounded.css` | `fi-sr-` | `lib/icons/sr.dart` | `Sr` | 5,059 |
-| `assets/css/solid-straight.css` | `fi-ss-` | `lib/icons/ss.dart` | `Ss` | 5,059 |
-| `assets/css/thin-chubby.css` | `fi-tc-` | `lib/icons/tc.dart` | `Tc` | 3,087 |
-| `assets/css/thin-rounded.css` | `fi-tr-` | `lib/icons/tr.dart` | `Tr` | 5,040 |
-| `assets/css/thin-straight.css` | `fi-ts-` | `lib/icons/ts.dart` | `Ts` | 5,061 |
+| `assets/css/bold-rounded.css` | `fi-br-` | `lib/f_icons/br.dart` | `Br` | 5,050 |
+| `assets/css/bold-straight.css` | `fi-bs-` | `lib/f_icons/bs.dart` | `Bs` | 5,063 |
+| `assets/css/regular-chubby.css` | `fi-rc-` | `lib/f_icons/rc.dart` | `Rc` | 3,093 |
+| `assets/css/regular-rounded.css` | `fi-rr-` | `lib/f_icons/rr.dart` | `Rr` | 5,047 |
+| `assets/css/regular-straight.css` | `fi-rs-` | `lib/f_icons/rs.dart` | `Rs` | 5,063 |
+| `assets/css/solid-chubby.css` | `fi-sc-` | `lib/f_icons/sc.dart` | `Sc` | 3,087 |
+| `assets/css/solid-rounded.css` | `fi-sr-` | `lib/f_icons/sr.dart` | `Sr` | 5,059 |
+| `assets/css/solid-straight.css` | `fi-ss-` | `lib/f_icons/ss.dart` | `Ss` | 5,059 |
+| `assets/css/thin-chubby.css` | `fi-tc-` | `lib/f_icons/tc.dart` | `Tc` | 3,087 |
+| `assets/css/thin-rounded.css` | `fi-tr-` | `lib/f_icons/tr.dart` | `Tr` | 5,040 |
+| `assets/css/thin-straight.css` | `fi-ts-` | `lib/f_icons/ts.dart` | `Ts` | 5,061 |
