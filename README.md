@@ -4,6 +4,8 @@ Flutter `IconData` constants generated from the Flaticon CSS font files in `asse
 
 This package currently exposes 49,709 icons across 11 CSS font styles.
 
+Preview icons: https://flaticons.vercel.app/
+
 ## Import
 
 ```dart
